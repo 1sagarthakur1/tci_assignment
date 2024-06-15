@@ -35,13 +35,16 @@ The API's Services  will be used by the **Two** entities:
 ## Feature
 - Employee
   -add employees in the department in bulk.
+  
   -get employee that returns the list of employees that are eligible to receive a bonus on a given date.
 
 ## REST API
 -POST /tci/employee-bonus
+
 POST API that sends a list of employees in its payload. This API will store the employee data in two tables : department and employee.
 
 -GET /tci//employee-bonus?date=”may-27-2022”
+
 GET API that returns the list of employees that are eligible to receive a bonus on a given date.
 
 
